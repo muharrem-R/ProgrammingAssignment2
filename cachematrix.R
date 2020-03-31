@@ -29,6 +29,6 @@ cacheSolve <- function(x, ...) {
   mat <- x$get()
   m <- solve(mat,...)
   x$setInverse(m)
-  a
+  m
   
 }
